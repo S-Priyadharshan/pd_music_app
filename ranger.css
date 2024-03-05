@@ -1,0 +1,13 @@
+.ranger::-webkit-slider-runnable-track{
+    background-color:black;
+    border-radius: 100px;
+    height: .2rem;
+}
+.ranger::-webkit-slider-thumb{
+    appearance:none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    margin-top: -6px;
+    border-radius: 50%;
+}
