@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ranger.css"/>
+    <script>
+        function show(){
+            // document.getElementById("answer").value="hi";
+            console.log(document.getElementById("range").value);
+            let val=document.getElementById("range").value;
+            let span=document.querySelector("span");
+            span.innerHTML=val;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <!-- <input type="text" id="value"></input> -->
+        <SPAN id="value"></SPAN>
+        <input type="range" class="ranger" step="1" id="range">
+        <input type="button" onclick="show()"/>
+    </form>
+    <!-- <form>
+        <input id="meow">
+        <input type="button" onclick="show()" value="click">
+        <input id="answer"/>
+    </form> -->
+</body>
+</html>
